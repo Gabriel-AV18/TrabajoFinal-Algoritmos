@@ -1,5 +1,5 @@
 public class SumaRecursiva {
-    public static int sumar (int n){
+    long sumar (long n){
         if (n == 1){
             return 1;
         }
