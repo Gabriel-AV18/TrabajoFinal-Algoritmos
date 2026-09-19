@@ -1,7 +1,7 @@
 public class SumaIterativa {
-    long sumaIterativa(long n) {
-        long suma = 0;
-        for (long i = 1; i <= n; i++) {
+    long sumaIterativa(int n) {
+        int suma = 0;
+        for (int i = 1; i <= n; i++) {
             suma = suma +i;
         }
         return suma;
