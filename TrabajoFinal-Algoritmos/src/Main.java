@@ -23,7 +23,7 @@ public class Main {
                 case 1:
                     SumaIterativa si = new SumaIterativa();
 
-                    System.out.println("Ingrese n");
+                    System.out.println("Ingrese El Numero A Sumar");
                     int n = sc.nextInt();
 
                     System.out.println("El Resultado Es." + si.sumaIterativa(n));
@@ -31,42 +31,42 @@ public class Main {
                 case 2:
                     SumaRecursiva sr = new SumaRecursiva();
 
-                    System.out.println("Ingrese n");
+                    System.out.println("Ingrese El Numero A Sumar");
                     long n1 = sc.nextLong();
 
                     System.out.println("El Resultado Es." + sr.sumar(n1));
                     break;
                 case 3:
                     FactorialIterativo fi = new FactorialIterativo();
-                    System.out.println("Ingrese n");
+                    System.out.println("Ingrese El Numero A Calcular");
                     long n2 = sc.nextLong();
 
                     System.out.println("El Resultado Es." + fi.factorial(n2));
                     break;
                 case 4:
                     FactorialRecursivo ff = new FactorialRecursivo();
-                    System.out.println("Ingrese n");
+                    System.out.println("Ingrese El Numero A Calcular");
                     long n3 = sc.nextLong();
 
                     System.out.println("El Resultado Es." + ff.factorial(n3));
                     break;
                 case 5:
                     FibonacciIterativo fi2 = new FibonacciIterativo();
-                    System.out.println("Ingrese n");
+                    System.out.println("Ingrese El Numero A Calcular");
                     long n4 = sc.nextLong();
 
                     System.out.println("El Resultado Es." + fi2.serieFibonacci(n4));
                     break;
                 case 6:
                     FibonacciRecursivo fi3 = new FibonacciRecursivo();
-                    System.out.println("Ingrese n");
+                    System.out.println("Ingrese El Numero A Calcular");
                     int n5 = sc.nextInt();
 
                     System.out.println("El Resultado Es." + fi3.serieFibonacci(n5));
                     break;
                 case 7:
                     FibonacciDinamico fi4 = new FibonacciDinamico();
-                    System.out.println("Ingrese n");
+                    System.out.println("Ingrese El Numero A Calcular");
                     int n6 = sc.nextInt();
 
                     System.out.println("El Resultado Es." + fi4.fibonacci(n6));
