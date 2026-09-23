@@ -1,9 +1,12 @@
 public class BacktrackingSubconjuntos {
+    boolean respuesta = false;
     void buscar (int[] arreglo,int K, int indice, int sumaActual,String subConjunto){
         if(sumaActual == K){
             System.out.println(subConjunto);
+            respuesta = true;
             return;
         }
+        //Para Negativos Quitar sumaAncual > K
         if (indice >= arreglo.length || sumaActual > K){
             return;
         }

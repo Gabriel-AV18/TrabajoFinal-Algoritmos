@@ -119,6 +119,9 @@ public class Main {
                     BacktrackingSubconjuntos bs = new BacktrackingSubconjuntos();
                     System.out.println("Sub Conjunto Entontrado:");
                     bs.buscar(arreglo3,K,0,0,"");
+                    if(!bs.respuesta){
+                        System.out.println("No Hay Sub Conjuntos");
+                    }
                     break;
             }
             System.out.println("Desea Realizar Otra Operacion ? (S/N)");
