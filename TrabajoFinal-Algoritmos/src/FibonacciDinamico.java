@@ -1,14 +1,17 @@
 public class FibonacciDinamico {
-    long fibonacci(int n) {
-        long []  num = new long[n + 1];
-        if (n == 0 || n == 1)
+    long fibonacci(int n, long[] fib) {
+        if (n == 0 || n == 1){
             return n;
-        num[0] =0;
-        num[1] = 1;
-        for (int i = 2; i <= n; i++) {
-            num[i] = num[i - 1] + num[i - 2];
+        }
+        else {
+            if (fib[n] != -1) {
+                return fib[n];
+            } else {
+                fib[n] = fibonacci(n - 1, fib) + fibonacci(n - 2, fib);
+                return fib[n];
+            }
 
         }
-        return num[n];
+
     }
 }

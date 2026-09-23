@@ -69,7 +69,11 @@ public class Main {
                     System.out.println("Ingrese El Numero A Calcular");
                     int n6 = sc.nextInt();
 
-                    System.out.println("El Resultado Es." + fi4.fibonacci(n6));
+                    long[] fib =  new long [n6+1];
+                    for (int i = 0; i < n6+1; i++) {
+                        fib[i]=-1;
+                    }
+                    System.out.println("El Resultado Es." + fi4.fibonacci(n6, fib ));
                     break;
                 case 8:
                     System.out.println("De Cuantos Numeros Sera El Arreglo");

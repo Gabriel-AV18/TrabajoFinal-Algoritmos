@@ -1,5 +1,5 @@
 public class FactorialRecursivo {
-    //No Hay Cambios
+    //No Hay cambio
     long factorial(long n) {
         if (n == 0 || n == 1) {
             return 1;
